@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    font-size: 1.5rem;
+    width: 45%;
+    padding: 0.3rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    opacity: 0.2;
+}
+.menu.current {
+    opacity: 1;
+}
+.menu.todo {
+    background-color: lightblue;
+}
+.menu.todo:hover {
+    background-color: rgb(74, 139, 161);
+    cursor: pointer;
+}
+.menu.done {
+    background-color: lightgoldenrodyellow;
+}
+.menu.done:hover {
+    background-color: rgb(157, 157, 75);
+    cursor: pointer;
+}
+.form {
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.form.done {
+    display: none;
+}
+.task-list {
+    list-style: none;
+}
+.task-list > li {
+    background-color: lightblue;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.task-list > li:hover {
+    background-color: rgb(74, 139, 161);
+    color: white;
+}
+.task-list.done > li {
+    background-color: lightgoldenrodyellow;
+}
+.task-list.done > li:hover {
+    background-color: rgb(157, 157, 75);
+}
+button[type='submit'] {
+    background-color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+button[type='submit']:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+input[type='text'] {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}

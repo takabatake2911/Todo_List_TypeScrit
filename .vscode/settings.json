@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "editor.lineHeight": 1.4,
+    "editor.lineNumbers": "off",
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "[typescript]": {},
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500
+    }
+}
